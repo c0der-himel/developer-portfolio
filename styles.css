@@ -3,12 +3,18 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+/* === Hero Section === */
 h1 {
   font-size: 50px;
 }
 
+p {
+  color: gray;
+}
+
 .orange-color {
   color: tomato;
+  font-weight: bold;
 }
 
 .hero {
@@ -18,7 +24,7 @@ h1 {
 }
 
 .hero-content {
-  margin-top: 3%;
+  margin-top: 6%;
   display: flex;
 }
 
@@ -54,4 +60,110 @@ h1 {
   width: 80%;
   float: right;
   margin-right: 10%;
+}
+
+/* === Dream Big === */
+.dream-big {
+  display: flex;
+}
+
+.dream-big-content {
+  margin-top: 10%;
+  display: flex;
+  background-image: url('./images/dream-bg.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.dream-big .text-content {
+  width: 50%;
+  /* margin-right: 5%; */
+}
+
+.dream-big .description {
+  padding-right: 135px;
+}
+
+.link-button {
+  display: inline-block;
+  margin-top: 5px;
+  font-weight: 700;
+  text-decoration: none;
+  color: azure;
+  padding: 10px 35px;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.img-content {
+  width: 50%;
+}
+
+.dream-big .img-content img {
+  width: 80%;
+  float: right;
+  margin-right: 10%;
+}
+
+/* === Experiences === */
+.experiences {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.experiences .content {
+  display: flex;
+}
+
+.title {
+  margin-left: 4%;
+}
+
+.content {
+  background-image: url('./images/exp-bg.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.content h4 {
+  color: tomato;
+}
+
+.experience-1 {
+  width: 50%;
+  margin: 0 35px 0 75px;
+  padding: 30px;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.experience-2 {
+  width: 50%;
+  margin: 0 75px 0 35px;
+  padding: 30px;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+/* === Footer === */
+footer p {
+  text-align: center;
 }
